@@ -1,0 +1,1 @@
+export default{tip:"提示",ok:"确认",cancel:"取消",copy:"复制",search:"搜索",lang:"语言",theme:"主题",term:"名词解释",cur_qrcode:"当前页面二维码",placeholder:"关键词","err.search":"无法找到相关结果，换个关键词再试试！","zh-CN":"中文","en-US":"English"};

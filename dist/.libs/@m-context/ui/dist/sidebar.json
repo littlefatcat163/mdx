@@ -1,0 +1,41 @@
+[
+    {
+        "path": "/src",
+        "name": "src",
+        "type": "folder",
+        "children": [
+            {
+                "path": "/src/components",
+                "name": "components",
+                "type": "folder",
+                "children": [
+                    {
+                        "path": "/src/components/button",
+                        "name": "Button.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "path": "/src/components/card",
+                        "name": "Card.tsx",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "path": "/src/main",
+                "name": "main.ts",
+                "type": "file"
+            }
+        ]
+    },
+    {
+        "path": "/package",
+        "name": "package.json",
+        "type": "file"
+    },
+    {
+        "path": "/readme",
+        "name": "README.md",
+        "type": "file"
+    }
+]

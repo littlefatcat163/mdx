@@ -1,0 +1,1 @@
+export default{tip:"Tip",ok:"Ok",cancel:"Cancel",copy:"copy",search:"search",lang:"Language",theme:"Theme",term:"名词解释",cur_qrcode:"QR code for this page",placeholder:"Keyword","err.search":"No results. Try a different keyword.","zh-CN":"中文","en-US":"English"};
