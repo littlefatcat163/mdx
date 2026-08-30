@@ -1,1 +1,0 @@
-window.MContext.injectBodyRes({jss:{sprite:"/.libs/@m-context/ui/dist/sprite.js"}});
