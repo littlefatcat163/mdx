@@ -1,1 +1,0 @@
-var app={ name: 'blog', langs: [ 'zh-CN' ] }

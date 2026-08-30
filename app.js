@@ -1,0 +1,1 @@
+var app={ name: 'mdx', langs: [ 'zh-CN' ], base: '/mdx' }

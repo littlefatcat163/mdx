@@ -165,7 +165,7 @@ export declare function GlobalLoading(): false | ReactPortal;
 export declare function GlobalModal(): false | ReactPortal;
 
 declare type HeroProps = {
-    banner?: string;
+    banner: string;
     title: string;
     description: string;
     publishedAt: string;
@@ -211,11 +211,11 @@ export declare const loading: {
 
 export declare function MarkdownLayout({ children, banner, title, description, publishedAt, updatedAt }: MarkdownLayoutProps): JSX.Element;
 
-declare type MarkdownLayoutProps = Readonly<PropsWithChildren<HeroProps & {
+export declare type MarkdownLayoutProps = Readonly<PropsWithChildren<HeroProps & {
     updatedAt: string;
 }>>;
 
-export declare type MContext = {
+declare type MContext_2 = {
     name: string
     version: string
     isMobile: boolean
@@ -224,6 +224,7 @@ export declare type MContext = {
     injectHeadRes: (res: WebRes) => void
     injectBodyRes: (res: WebRes) => void
 }
+export { MContext_2 as MContext }
 
 declare type MContextCommon = {
     langs: Language[];
@@ -233,7 +234,7 @@ export declare function MContextProvider({ children, value }: PropsWithChildren<
     value: MContextReactPayload;
 }>): JSX.Element;
 
-export declare type MContextReactPayload = Pick<MContext, 'name'> & MContextCommon;
+export declare type MContextReactPayload = Pick<MContext_2, 'name'> & MContextCommon;
 
 export declare function Mermaid({ children }: Readonly<{
     children: string;
@@ -343,7 +344,7 @@ declare type TextProps = Readonly<React.PropsWithChildren<{
     del?: boolean;
 }>>;
 
-export declare function useMContext(): Pick<MContext, "name" | "theme"> & MContextCommon;
+export declare function useMContext(): Pick<MContext_2, "name" | "theme"> & MContextCommon;
 
 declare type WebRes = {
     styles?: Record<string, string>
