@@ -1,0 +1,1 @@
+let e;function t(){return null==e&&(e=Date.now()),e++}function r(e,t=globalThis?.app?.base){return e?.startsWith("/")&&void 0!==t?`${t.replace(/\/$/,"")}/${e.replace(/^\//,"")}`:e?.startsWith("../")?`../${e}`:e??""}export{t as genId,r as resolveUrl};

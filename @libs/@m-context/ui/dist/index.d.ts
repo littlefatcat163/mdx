@@ -156,7 +156,7 @@ declare type FieldsetProps = React.PropsWithChildren<{
 export declare type FileRouteNode = {
     path: string
     name: string
-    type: 'folder' | 'file'
+    // type?: 'folder' | 'file'
     children?: FileRouteNode[]
 }
 
@@ -164,12 +164,9 @@ export declare function GlobalLoading(): false | ReactPortal;
 
 export declare function GlobalModal(): false | ReactPortal;
 
-declare type HeroProps = {
-    banner: string;
-    title: string;
-    description: string;
-    publishedAt: string;
-};
+export declare function HomeLayout({ banner, title, description }: HomeLayoutProps): JSX.Element;
+
+export declare type HomeLayoutProps = Readonly<PropsWithChildren<Pick<MdxFrontmatter, 'banner' | 'title' | 'description'>>>;
 
 export declare type HTMLTheme = 'dark' | 'light'
 
@@ -211,18 +208,17 @@ export declare const loading: {
 
 export declare function MarkdownLayout({ children, banner, title, description, publishedAt, updatedAt }: MarkdownLayoutProps): JSX.Element;
 
-export declare type MarkdownLayoutProps = Readonly<PropsWithChildren<HeroProps & {
-    updatedAt: string;
-}>>;
+export declare type MarkdownLayoutProps = Readonly<PropsWithChildren<MdxFrontmatter>>;
 
 declare type MContext_2 = {
     name: string
     version: string
-    isMobile: boolean
     theme: HTMLTheme
     toggleTheme: () => void
     injectHeadRes: (res: WebRes) => void
     injectBodyRes: (res: WebRes) => void
+    resolveUrl: (path: string) => string
+    isMobile: boolean
 }
 export { MContext_2 as MContext }
 
@@ -234,7 +230,15 @@ export declare function MContextProvider({ children, value }: PropsWithChildren<
     value: MContextReactPayload;
 }>): JSX.Element;
 
-export declare type MContextReactPayload = Pick<MContext_2, 'name'> & MContextCommon;
+export declare type MContextReactPayload = Pick<MContext_2, 'name' | 'resolveUrl'> & MContextCommon;
+
+declare type MdxFrontmatter = {
+    banner?: string
+    title: string
+    description: string
+    publishedAt: string
+    updatedAt: string
+}
 
 export declare function Mermaid({ children }: Readonly<{
     children: string;
@@ -344,7 +348,7 @@ declare type TextProps = Readonly<React.PropsWithChildren<{
     del?: boolean;
 }>>;
 
-export declare function useMContext(): Pick<MContext_2, "name" | "theme"> & MContextCommon;
+export declare function useMContext(): Pick<MContext_2, "name" | "resolveUrl" | "theme"> & MContextCommon;
 
 declare type WebRes = {
     styles?: Record<string, string>

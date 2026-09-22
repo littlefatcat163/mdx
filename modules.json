@@ -1,0 +1,15 @@
+[
+    {
+        "path": "mon-baby",
+        "title": "养育本是简单的生活能力",
+        "description": "放下焦虑，这只是很简单而朴素的基础生活能力，不该被包装成一门需要不断花钱学习的难题。",
+        "publishedAt": "2026-09-17"
+    },
+    {
+        "path": "gimmick",
+        "title": "营销套路",
+        "description": "故意制造信息差，讲故事包装、放大焦虑、挑起攀比、雇托假装抢购营造稀缺感等手段把普通的东西卖出天价。",
+        "publishedAt": "2023-09-18",
+        "banner": "/gimmick/boss-baby.webp"
+    }
+]
