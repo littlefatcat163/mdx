@@ -1,0 +1,32 @@
+[
+    {
+        "path": "",
+        "name": "营销套路"
+    },
+    {
+        "path": "jade",
+        "name": "从头到尾全是戏的玉石套路",
+        "children": [
+            {
+                "path": "base",
+                "name": "玉石买卖"
+            },
+            {
+                "path": "stage1-purchasing",
+                "name": "第一阶段 代购"
+            },
+            {
+                "path": "stage2_3-packing-auction",
+                "name": "第二、三阶段 蒙包 + 拍卖"
+            },
+            {
+                "path": "stage4-stone-gambling",
+                "name": "第四阶段 赌石"
+            },
+            {
+                "path": "routine-summary",
+                "name": "玉石套路总结"
+            }
+        ]
+    }
+]

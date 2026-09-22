@@ -1,0 +1,19 @@
+[
+    {
+        "path": "",
+        "name": "母婴、养育常识"
+    },
+    {
+        "path": "breast-milk",
+        "name": "母乳"
+    },
+    {
+        "path": "formula",
+        "name": "母乳与奶粉"
+    },
+    {
+        "path": "nutrient",
+        "name": "营养",
+        "children": [{ "path": "vitamin-d", "name": "维生素D" }]
+    }
+]
