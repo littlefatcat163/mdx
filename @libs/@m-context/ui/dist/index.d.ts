@@ -295,6 +295,11 @@ declare class PhotoSwipe {
 
 export declare const photoSwipe: () => PhotoSwipe;
 
+export declare function readSize(title?: string): {
+    width: number;
+    height: number;
+};
+
 export declare function Select({ children, className, ...props }: SelectProps): JSX.Element;
 
 declare type SelectProps = React.PropsWithChildren<{} & React.SelectHTMLAttributes<HTMLSelectElement>>;
