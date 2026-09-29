@@ -2,5 +2,21 @@
     {
         "path": "",
         "name": "营养是什么"
+    },
+    {
+        "path": "ingredients",
+        "name": "食材",
+        "children": [
+            {
+                "path": "vegetables",
+                "name": "蔬菜",
+                "children": [
+                    {
+                        "path": "tomato",
+                        "name": "番茄"
+                    }
+                ]
+            }
+        ]
     }
 ]
