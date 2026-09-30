@@ -4,6 +4,16 @@
         "name": "营养是什么"
     },
     {
+        "path": "seasoning",
+        "name": "调料",
+        "children": [
+            {
+                "path": "moment",
+                "name": "下锅时机"
+            }
+        ]
+    },
+    {
         "path": "ingredients",
         "name": "食材",
         "children": [
