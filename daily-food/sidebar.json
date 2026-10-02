@@ -4,19 +4,21 @@
         "name": "营养是什么"
     },
     {
-        "path": "seasoning",
-        "name": "调料",
+        "path": "ingredients",
+        "name": "辅料、配料",
         "children": [
             {
-                "path": "moment",
-                "name": "下锅时机"
-            }
-        ]
-    },
-    {
-        "path": "ingredients",
-        "name": "食材",
-        "children": [
+                "path": "seasoning",
+                "name": "调料"
+            },
+            {
+                "path": "spices",
+                "name": "香料"
+            },
+            {
+                "path": "starch",
+                "name": "淀粉"
+            },
             {
                 "path": "vegetables",
                 "name": "蔬菜",

@@ -353,6 +353,10 @@ declare type TextProps = Readonly<React.PropsWithChildren<{
     del?: boolean;
 }>>;
 
+export declare function Thead({ children }: TheadProps): JSX.Element;
+
+declare type TheadProps = Readonly<React.PropsWithChildren>;
+
 export declare function useMContext(): Pick<MContext_2, "name" | "resolveUrl" | "theme"> & MContextCommon;
 
 declare type WebRes = {
