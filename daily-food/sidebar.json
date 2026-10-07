@@ -5,27 +5,65 @@
     },
     {
         "path": "ingredients",
-        "name": "辅料、配料",
+        "name": "辅料、配料、备料",
         "children": [
             {
                 "path": "seasoning",
                 "name": "调料"
             },
             {
-                "path": "spices",
-                "name": "香料"
-            },
-            {
                 "path": "starch",
                 "name": "淀粉"
             },
             {
-                "path": "vegetables",
-                "name": "蔬菜",
+                "path": "prep",
+                "name": "预处理食材"
+            },
+            {
+                "path": "spices",
+                "name": "香料"
+            }
+        ]
+    },
+    {
+        "path": "sauce",
+        "name": "酱汁",
+        "children": [
+            {
+                "path": "生熟蒜蓉酱",
+                "name": "生熟蒜蓉酱"
+            }
+        ]
+    },
+    {
+        "path": "vegetables",
+        "name": "蔬菜",
+        "children": [
+            {
+                "path": "tomato",
+                "name": "番茄"
+            },
+            {
+                "path": "luffa",
+                "name": "丝瓜"
+            }
+        ]
+    },
+    {
+        "path": "sea",
+        "name": "海鲜",
+        "children": [
+            {
+                "path": "shrimp",
+                "name": "虾",
                 "children": [
                     {
-                        "path": "tomato",
-                        "name": "番茄"
+                        "path": "",
+                        "name": "虾品种及处理"
+                    },
+                    {
+                        "path": "龙井虾仁",
+                        "name": "龙井虾仁"
                     }
                 ]
             }
