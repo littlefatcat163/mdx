@@ -40,6 +40,10 @@
         "name": "蔬菜",
         "children": [
             {
+                "path": "",
+                "name": "怎么挑菜"
+            },
+            {
                 "path": "tomato",
                 "name": "番茄",
                 "children": [
