@@ -4,29 +4,29 @@
         "name": "营养是什么"
     },
     {
-        "path": "ingredients",
-        "name": "辅料、配料、备料",
+        "path": "辅料",
+        "name": "辅料、配料",
         "children": [
             {
-                "path": "seasoning",
+                "path": "调料",
                 "name": "调料"
             },
             {
-                "path": "starch",
-                "name": "淀粉"
+                "path": "淀粉",
+                "name": "淀粉、生粉"
             },
             {
-                "path": "prep",
+                "path": "预处理",
                 "name": "预处理食材"
             },
             {
-                "path": "spices",
+                "path": "香料",
                 "name": "香料"
             }
         ]
     },
     {
-        "path": "sauce",
+        "path": "酱汁",
         "name": "酱汁",
         "children": [
             {
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "path": "vegetables",
+        "path": "蔬菜",
         "name": "蔬菜",
         "children": [
             {
@@ -44,7 +44,7 @@
                 "name": "怎么挑菜"
             },
             {
-                "path": "tomato",
+                "path": "番茄",
                 "name": "番茄",
                 "children": [
                     {
@@ -66,11 +66,15 @@
                     {
                         "path": "番茄肉酱面",
                         "name": "番茄肉酱面"
+                    },
+                    {
+                        "path": "番茄炖牛腩",
+                        "name": "番茄炖牛腩"
                     }
                 ]
             },
             {
-                "path": "luffa",
+                "path": "棱角丝瓜",
                 "name": "棱角丝瓜",
                 "children": [
                     {
@@ -98,16 +102,30 @@
         ]
     },
     {
-        "path": "sea",
-        "name": "海鲜",
+        "path": "水产",
+        "name": "水产",
         "children": [
             {
-                "path": "shrimp",
+                "path": "虾",
                 "name": "虾",
                 "children": [
                     {
                         "path": "龙井虾仁",
                         "name": "龙井虾仁"
+                    }
+                ]
+            },
+            {
+                "path": "贝类",
+                "name": "贝类",
+                "children": [
+                    {
+                        "path": "",
+                        "name": "总览"
+                    },
+                    {
+                        "path": "炒花甲",
+                        "name": "炒花甲"
                     }
                 ]
             }
