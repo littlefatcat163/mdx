@@ -182,8 +182,8 @@ declare type IconProps = Readonly<ComponentProps<'svg'> & {
 export declare type ImgItem = {
     alt: string
     src: string
-    width: number
-    height: number
+    width?: number
+    height?: number
 }
 
 export declare function Imgs({ list, col }: ImgsProps): JSX.Element;
@@ -290,7 +290,7 @@ declare class ModalStackManager {
 
 declare class PhotoSwipe {
     #private;
-    open(index: number, dataSource?: ImgItem[]): Promise<void>;
+    open(index: number, dataSource: ImgItem[]): Promise<void>;
 }
 
 export declare const photoSwipe: () => PhotoSwipe;
