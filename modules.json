@@ -7,6 +7,13 @@
         "banner": "/日常饮食/banner.webp"
     },
     {
+        "path": "电脑",
+        "title": "日常基础工具",
+        "description": "电脑不是一门选修课，是现在干活的基础工具。 上班、办事、学习、跟人联系，全在电脑上。",
+        "publishedAt": "2026-10-27",
+        "banner": "/电脑/banner.webp"
+    },
+    {
         "path": "mon-baby",
         "title": "养育本是简单的生活能力",
         "description": "放下焦虑，这只是很简单而朴素的基础生活能力，不该被包装成一门需要不断花钱学习的难题。",

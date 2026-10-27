@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>五笔输入法</title>
+        <meta name="description" content="（横（一）、竖（丨）、撇（丿）、捺（丶）、折（乙））五个笔画为基础，延伸出字根，解决中文打字重码，选择效率问题。" />
+        <link rel="icon" href="/mdx/assets/favicon.svg">
+        <script src="/mdx/app.js"></script>
+        <link rel="stylesheet" href="/mdx/@libs/@m-context/ui/dist/index.css" id="@m-context/ui/layouts">
+        <script src="/mdx/@libs/@m-context/ui/dist/global.js"></script>
+        <script src="/mdx/@libs/@m-context/ui/dist/setupHeadRes.js"></script>
+    </head>
+    <body>
+        <div id="app"><link rel="preload" as="image" href="./banner.webp"/><link rel="preload" as="image" href="./%E5%88%86%E5%8C%BA.webp"/><link rel="preload" as="image" href="./%E9%94%AE%E4%BD%8D.webp"/><link rel="preload" as="image" href="./%E5%AD%97%E5%9E%8B.webp"/><header class="navbar bg-neutral fixed top-0 z-40 h-(--header-h) w-full place-content-between text-white"><ul class="menu flex-none p-0"><li><a class="text-xl font-bold" href="/mdx/">mdx</a></li></ul></header><section class="grid h-dvh grid-rows-[var(--header-h)_1fr]"><div></div><div class="hero" style="background-image:url(/mdx/assets/banner.webp)"><div class="hero-overlay opacity-75"></div><div class="hero-content text-neutral-content w-11/12 text-center lg:w-2/3"><div><h1 class="mb-5">五笔输入法</h1><p class="mb-5 text-xl whitespace-pre-line opacity-80">（横（一）、竖（丨）、撇（丿）、捺（丶）、折（乙））五个笔画为基础，延伸出字根，解决中文打字重码，选择效率问题。</p><p class="flex flex-wrap items-center justify-center gap-3 text-sm"><time dateTime="2026年10月27日 星期二 20:00:00">发布于：<!-- -->2026年10月27日 星期二 20:00:00</time></p><div class="mt-1 flex flex-wrap items-center justify-center gap-3 text-sm opacity-70"><span class="skeleton skeleton-text">字数：<!-- -->-</span><span class="status status-secondary"></span><span class="skeleton skeleton-text">阅读时间：<!-- -->-<!-- --> </span></div></div></div></div></section><div class="bg-base-200 sticky top-(--header-h) z-30 max-h-(--side-nav-h) min-h-0.5 w-full overflow-x-clip"><div class="relative flex justify-between"><div><input id="sidebar-toggle" type="checkbox" class="peer hidden"/><label for="sidebar-toggle" class="btn btn-ghost btn-secondary lg:hidden"><svg width="1em" height="1em"><use href="#icon-bars"></use></svg>菜单</label><label for="sidebar-toggle" class="pointer-events-none fixed inset-0 bg-black/30 opacity-0 transition peer-checked:pointer-events-auto peer-checked:opacity-100 lg:hidden"></label><aside class="bg-base-200 absolute top-0 left-0 max-h-[calc(100dvh-var(--header-h))] w-(--mctx-nav-w) -translate-x-full transform overflow-y-auto transition-transform peer-checked:translate-x-0 lg:translate-x-0"><div class="skeleton h-[50dvh]"></div></aside></div><div><input id="toc-toggle" type="checkbox" class="peer/toc hidden"/><label for="toc-toggle" class="btn btn-link btn-secondary xl:hidden">页面导航<svg width="1em" height="1em"><use href="#icon-hash"></use></svg></label><label for="toc-toggle" class="pointer-events-none fixed inset-0 bg-black/30 opacity-0 transition peer-checked/toc:pointer-events-auto peer-checked/toc:opacity-100 xl:hidden"></label><aside class="bg-base-200 absolute top-0 right-0 max-h-[calc(100dvh-var(--header-h))] w-(--mctx-nav-w) translate-x-full transform overflow-y-auto p-3 transition-transform peer-checked/toc:translate-x-0 xl:translate-x-0"><div class="skeleton h-[50dvh]"></div></aside></div></div></div><main class="py-10 lg:pl-(--mctx-nav-w) xl:pr-(--mctx-nav-w)"><div class="prose max-w-none px-6" id="document"><div class="not-prose cursor-pointer"><img alt="字根键位分布" src="./banner.webp" data-index="0" class="w-full max-w-full"/></div>
+<h2 id="笔画分区">笔画分区</h2>
+<div class="not-prose cursor-pointer"><img alt="分区" src="./%E5%88%86%E5%8C%BA.webp" data-index="0" class="w-full max-w-full"/></div>
+<table data-color="primary" class="table table-zebra color-primary table-soft border-soft" color="primary" variant="soft"><colgroup><col style="width:100px"/><col/></colgroup><thead><tr><th>分区</th><th>笔画</th></tr></thead><tbody><tr><td>1区</td><td><p>11 ～ 15 G F D S A<br/>
+<!-- -->横（一）<br/>
+<span class="font-bold text-primary">提（㇀）</span><div class="badge badge-primary badge-soft" color="primary" variant="soft">扩展</div></p></td></tr><tr><td>2区</td><td><p>21 ～ 25 H J K L M<br/>
+<!-- -->竖（丨）<br/>
+<span class="font-bold text-primary">竖勾（亅）</span><div class="badge badge-primary badge-soft" color="primary" variant="soft">扩展</div></p></td></tr><tr><td>3区</td><td><p>31 ～ 35 T R E W Q<br/>
+<!-- -->撇（丿）</p></td></tr><tr><td>4区</td><td><p>41 ～ 45 Y U I O P<br/>
+<!-- -->捺（丶）</p></td></tr><tr><td>5区</td><td><p>51 ～ 55 N B V C X<br/>
+<!-- -->折（乙）<br/>
+<span class="font-bold text-primary">各个方向转折（乚 乛 𠃌 ㇉ 𠄌 𠄎 ㇂）</span><div class="badge badge-primary badge-soft" color="primary" variant="soft">扩展</div></p></td></tr></tbody></table>
+<h2 id="字根分配键位规则-不需要背口诀"><span class="text-success">字根分配键位规则</span> <div class="badge badge-xl badge-warning" color="warning">不需要背口诀</div></h2>
+<div class="not-prose cursor-pointer"><img alt="字根键位分布" src="./%E9%94%AE%E4%BD%8D.webp" data-index="0" class="w-full max-w-full"/></div>
+<p>从上图可以看出规则：</p>
+<ol>
+<li>笔画重复加一笔的，键位号也跟着加一，如<!-- -->
+<ul>
+<li>一横：11 G、二横：12 F、三横：13 D；</li>
+<li>一竖：21 H、二竖：22 J、三竖：23 K、四竖：24 L；</li>
+<li>一撇：31 T、二撇：32 R、三撇：33 E。</li>
+</ul>
+</li>
+<li>看第二笔对应哪个分区，如<!-- -->
+<ul>
+<li>王 第二笔还是一横，也就是1区，在 11G；</li>
+<li>土、士、干、十 第二笔是一竖，也就是2区，在12F。</li>
+</ul>
+</li>
+<li>相似的字根出现在什么区，大概在该区，如<!-- -->
+<ul>
+<li>王类似的，龶、戋、五 都在 11G；</li>
+<li>雨、⻗、革字底，跟十类似，扩展出来放在12F。</li>
+</ul>
+</li>
+</ol>
+<div class="alert prose-p:first:mt-0 prose-p:last:mb-0 color-primary text-primary-content"><div><p><strong>大多数是符合规则的，顺带扩展类似的字根出来，所以不需要去背口诀，而是像新手那样打字，认键位，打着打着就熟悉了的！</strong><br/>
+<!-- -->回忆下，第一次接触键盘，怎么打字的，拼音、英文就是这么看着键位在哪，慢慢打，打着打着就熟悉上来了。</p></div></div>
+<h2 id="字型">字型</h2>
+<div class="not-prose cursor-pointer"><img alt="字型" src="./%E5%AD%97%E5%9E%8B.webp" data-index="0" class="w-full max-w-full"/></div>
+<h2 id="全码">全码</h2>
+<blockquote>
+<p>一个汉字的完整编码，即按照五笔字型的拆分规则，输入该字所有字根。</p>
+</blockquote>
+<div class="alert prose-p:first:mt-0 prose-p:last:mb-0 color-secondary alert-soft border-soft"><div><ul>
+<li>要输入的汉字刚好才出来是4个字根，很完美；</li>
+<li>
+<span class="text-primary">小于 4 个字根呢？如 “余”字，其拆解出的字根为“人+禾”，只有 2 个字根，打完这两个字根发现并没有出来“余”字，
+需要 <strong>加上识别码(根据“末笔画所在区域”和“字型结构”确定)</strong>；</span>
+<ul>
+<li>
+<span class="font-bold text-primary">余的最后一笔是<code>捺（丶）</code>，要去4区找；</span>
+</li>
+<li>
+<span class="font-bold text-primary">余的字型是上下型，也就是代号2字型，42就是 <code>U</code>。</span>
+</li>
+</ul>
+</li>
+<li>
+<span class="text-accent">大于 4 个呢？如 “键”字，拆解出的字根为“钅+彐+二+丨+廴”，共有 5 个字根，这时 <strong>只取前三个和最后一个，即“钅+彐+二+廴”</strong>。</span>
+</li>
+</ul></div></div>
+<h2 id="笔画怎么打"><span class="text-info">笔画怎么打</span></h2>
+<div class="alert prose-p:first:mt-0 prose-p:last:mb-0 color-info alert-soft border-soft"><div><p>横（一）、竖（丨）、撇（丿）、捺（丶）、折（乙），<strong>按下两次区号键 + LL</strong>，<br/>
+<!-- -->如 <strong>竖（丨），其编码为 HHLL</strong>。</p></div></div>
+<h2 id="词语"><span class="text-success">词语</span></h2>
+<ul>
+<li>两字，取两字的前两位编码，<br/>
+<strong>如北（UXN）、京（YIU）= UXYI</strong>；</li>
+<li>三字，取前两个字的第一位编码，第三个字的前两位编码，<br/>
+<strong>如计算机，计（YFH）、算（THA）、机（SM）= YTSM</strong>；</li>
+<li>四字，取每个字的第一位编码，<br/>
+<strong>如山清水秀，山 (M)、清 (I)、水 (I)、秀 (T) = MIIT</strong>；</li>
+<li>五个字以上的，取一、二、三、末字的第一位编码，<br/>
+<strong>如黄河之水天上来，黄 (A)、河 (I)、之 (P)、来 (G) = AIPG</strong>。</li>
+</ul>
+<h2 id="笔画字根部首-编码">笔画、字根、部首 编码</h2>
+<p><code>一	GGLL</code>
+<code>廾	AGTH</code>
+<code>匚	AGN</code>
+<code>艹	AGHH</code>
+<code>工	AAAA</code></p>
+<div class="badge badge-primary badge-soft" color="primary" variant="soft">丨 HHLL</div>
+<div class="badge badge-primary badge-soft" color="primary" variant="soft">虍 HAV</div>
+<div class="badge badge-primary badge-soft" color="primary" variant="soft">卜 HHY</div>
+<div class="badge badge-primary badge-soft" color="primary" variant="soft">攴 HCU</div>
+<div class="badge badge-primary badge-soft" color="primary" variant="soft">刂 JHH</div>
+<div class="badge badge-primary badge-soft" color="primary" variant="soft">囗 LNHG</div>
+<div class="badge badge-primary badge-soft" color="primary" variant="soft">冂 MHN</div>
+<div class="badge badge-primary badge-soft" color="primary" variant="soft">殳 MCU</div>
+<br/>
+<div class="badge badge-info badge-soft" color="info" variant="soft">丿	TTLL</div>
+<div class="badge badge-info badge-soft" color="info" variant="soft">彳	TTTH</div>
+<div class="badge badge-info badge-soft" color="info" variant="soft">夂	TTNY</div>
+<div class="badge badge-info badge-soft" color="info" variant="soft">攵	TTGY</div>
+<div class="badge badge-info badge-soft" color="info" variant="soft">乇	TAV</div>
+<div class="badge badge-info badge-soft" color="info" variant="soft">豸	EER</div>
+<div class="badge badge-info badge-soft" color="info" variant="soft">彡	ETTT</div>
+<div class="badge badge-info badge-soft" color="info" variant="soft">勹	QTN</div>
+<div class="badge badge-info badge-soft" color="info" variant="soft">犭	QTE</div>
+<div class="badge badge-info badge-soft" color="info" variant="soft">饣	QNB</div>
+<div class="badge badge-info badge-soft" color="info" variant="soft">钅	QTGN</div>
+<br/>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">丶	YYLL</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">讠	YYN</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">亠	YYG</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">丬	UYGH</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">疒	UYGG</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">氵	IYYG</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">灬	OYYY</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">宀	PYYN</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">礻	PYI</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">衤	PUI</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">冖	PYN</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">廴	PNY</div>
+<div class="badge badge-accent badge-soft" color="accent" variant="soft">辶	PYNY</div>
+<br/>
+<div class="badge badge-success badge-soft" color="success" variant="soft">乙	NNLL</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">爿	NHDE</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">疋	NHI</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">忄	NYHY</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">屮	BHK</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">阝	BNH</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">凵	BNH</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">卩	BNH</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">彐	VNGG</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">厶	CNY</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">幺	XNNY</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">糸	XIU</div>
+<div class="badge badge-success badge-soft" color="success" variant="soft">弓	XNG</div></div><div class="mt-6 px-6"><time class="flex justify-end text-sm">最后更新于：<!-- -->2026年10月27日 星期二 23:42:58</time><div class="divider"></div><div class="grid grid-cols-2 gap-6"><div></div><div></div></div></div></main><div class="fixed right-3 bottom-3 transition-all delay-200 duration-300 ease-in-out opacity-100"><div class="radial-progress text-xs transition-all duration-200 text-secondary" style="--value:0;--size:2rem;--thickness:0.3rem" aria-valuenow="20" role="progressbar">0</div></div></div>
+        <script src="/mdx/@libs/@m-context/ui/dist/setupBodyRes.js"></script>
+        <script type="module" src="/mdx/client/hydrateMdx.js"></script>
+    </body>
+</html>
