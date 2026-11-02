@@ -344,6 +344,7 @@ declare function Text_2({ children, ...props }: TextProps): JSX.Element;
 export { Text_2 as Text }
 
 declare type TextProps = Readonly<React.PropsWithChildren<{
+    variant?: 'soft';
     color?: Color;
     size?: Size;
     bg?: boolean;
