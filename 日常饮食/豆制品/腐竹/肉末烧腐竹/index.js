@@ -1,0 +1,21 @@
+import{useMDXComponents as i}from"@mdx-js/react";import{Text as c,Alert as p,Imgs as e}from"@m-context/ui";import{Fragment as m,jsx as n,jsxs as s}from"react/jsx-runtime";var r={title:"\u8089\u672B\u70E7\u8150\u7AF9",description:"\u8150\u7AF9\u9C9C\u6DA6\u9171\u6C41\uFF0C\u642D\u914D\u7EC6\u788E\u8089\u9999\uFF0C\u723D\u9999\u53EF\u53E3\u3002",publishedAt:"2026\u5E7411\u670811\u65E5 \u661F\u671F\u4E09 23:39:02",banner:"./assets/banner.webp",updatedAt:"2026\u5E7411\u670811\u65E5 \u661F\u671F\u4E09 22:41:22"};function l(o){let t={h2:"h2",li:"li",ul:"ul",...i(),...o.components};return s(m,{children:[n(t.h2,{id:"\u51C6\u5907\u98DF\u6750",children:"\u51C6\u5907\u98DF\u6750"}),`
+`,n(p,{color:"success",variant:"soft",children:n(c,{bold:!0,children:"\u8150\u7AF9\u3001\u8089\u672B\u3001\u849C\u3001\u59DC\u3001\u8471\u3001\u9171\u6CB9\u3001\u8C46\u9171\u3001\u76D0\u3001\u767D\u7CD6\u3001\u9E21\u7CBE\u3001\u6CB9\u3001\u5F00\u6C34\u3002"})}),`
+`,s(t.ul,{children:[`
+`,n(t.li,{children:"\u8150\u7AF9\u6CE1\u53D1\uFF0C\u63A7\u5E72\u6C34\u5206\uFF0C\u5207\u6BB5\uFF1B"}),`
+`,n(t.li,{children:"\u8471\u767D\u3001\u59DC\u3001\u849C\u5207\u672B\uFF0C\u653E\u4E00\u5757\uFF1B"}),`
+`,n(t.li,{children:"\u8471\u7EFF\u5207\u5C0F\u6BB5\u3002"}),`
+`]}),`
+`,n(e,{list:[{src:"./assets/\u8089\u672B.webp",alt:"\u8089\u672B"},{src:"./assets/\u8471\u767D\u3001\u59DC\u849C\u672B.webp",alt:"\u8471\u767D\u3001\u59DC\u849C\u672B"},{src:"./assets/\u8471\u7EFF\u5207\u5C0F\u6BB5.webp",alt:"\u8471\u7EFF\u5207\u5C0F\u6BB5"}]}),`
+`,n(t.h2,{id:"\u70F9\u996A",children:"\u70F9\u996A"}),`
+`,s(t.ul,{children:[`
+`,n(t.li,{children:"\u8D77\u9505\u70E7\u6CB9\uFF0C\u5F00\u4E2D\u5C0F\u706B\uFF0C\u7092\u8089\u672B\uFF0C\u7092\u6563\uFF0C\u7092\u5230\u53D8\u8272\uFF0C5\u5206\u719F\u5373\u53EF\uFF1B"}),`
+`,n(t.li,{children:"\u653E\u5165\u8471\u767D\u3001\u59DC\u3001\u849C\u672B\uFF0C\u7092\u9999\uFF1B"}),`
+`,n(t.li,{children:"\u6CBF\u7740\u9505\u8FB9\uFF0C\u6DCB\u5165\u9002\u91CF\u6599\u9152\uFF0C\u6325\u53D1\u4E0B\u9152\u7CBE\uFF0C\u53BB\u8165\u589E\u9999\uFF1B"}),`
+`,n(t.li,{children:"\u52A0\u5165\u9002\u91CF\u8C46\u9171\uFF0C\u9171\u6CB9\uFF0C\u7FFB\u7092\u5747\u5300\uFF1B"}),`
+`,n(t.li,{children:"\u5012\u5165\u9002\u91CF\u5F00\u6C34\uFF1B"}),`
+`,n(t.li,{children:"\u5F00\u59CB\u8C03\u5473\uFF0C\u52A0\u5165\u76D0\u3001\u5C11\u91CF\u9E21\u7CBE\u3001\u767D\u7CD6\u3001\u8001\u62BD\uFF0C\u52A0\u5165\u8150\u7AF9\uFF0C\u7FFB\u7092\u5747\u5300\uFF1B"}),`
+`,n(t.li,{children:"\u6301\u7EED\u716E3\u30014\u5206\u949F\uFF0C\u8BA9\u8150\u7AF9\u5165\u5473\uFF1B"}),`
+`,n(t.li,{children:"\u52A0\u5165\u5C11\u91CF\u6C34\u6DC0\u7C89\uFF0C\u6253\u4E00\u5C42\u8584\u8584\u7684\u82A1\uFF0C\u7FFB\u7092\u5747\u5300\uFF1B"}),`
+`,n(t.li,{children:"\u6492\u5165\u8471\u82B1\uFF0C\u7FFB\u51E0\u4E0B\u51FA\u9505\u3002"}),`
+`]}),`
+`,n(e,{col:4,list:[{src:"./assets/\u7092\u8089\u672B.webp",alt:"\u7092\u8089\u672B"},{src:"./assets/\u7092\u5C0F\u6599.webp",alt:"\u7092\u5C0F\u6599"},{src:"./assets/\u716E\u8150\u7AF9.webp",alt:"\u716E\u8150\u7AF9"},{src:"./assets/\u51FA\u9505.webp",alt:"\u52FE\u82A1\u3001\u6492\u8471\u82B1\uFF0C\u7FFB\u7092\u51FA\u9505"}]})]})}function a(o={}){let{wrapper:t}={...i(),...o.components};return t?n(t,{...o,children:n(l,{...o})}):l(o)}export{a as default,r as frontmatter};
